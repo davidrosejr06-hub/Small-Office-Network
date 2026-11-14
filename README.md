@@ -38,12 +38,24 @@ Built a simulated small office LAN with four PCs, a Cisco 2960 switch, and a Cis
 
 
 ## Validation evidence
-Add screenshots under `screenshots/` showing:
 1. Full Packet Tracer topology
-2. Router `show ip interface brief` showing G0/0 up/up
-3. Successful PC0-to-router ping
-4. Successful PC0-to-PC1 ping
-5. Optional before/after troubleshooting evidence
+
+<img width="566" height="451" alt="Screenshot 2026-11-14 181547" src="https://github.com/user-attachments/assets/44a5aae4-9914-4acb-b6a8-5df5d74fdbf5" />
+
+4. Router `show ip interface brief` showing G0/0 up/up
+
+<img width="473" height="193" alt="Screenshot 2026-11-14 181254" src="https://github.com/user-attachments/assets/ae149e7a-89e4-47ad-bcf9-2884ac5b7432" />
+
+6. Successful PC0-to-router ping
+
+<img width="299" height="134" alt="Screenshot 2026-11-14 182011" src="https://github.com/user-attachments/assets/fd6db037-a4fc-4ae1-9147-26f15b2cb325" />
+
+   
+8. Successful PC0-to-PC1 ping
+
+<img width="311" height="135" alt="Screenshot 2026-11-14 182059" src="https://github.com/user-attachments/assets/8759162b-515c-43be-9044-09f79d327d1b" />
+
+
 
 ## What I learned
 - Devices on the same subnet and VLAN can communicate through a switch without routing.
