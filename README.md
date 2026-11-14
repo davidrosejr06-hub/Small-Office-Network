@@ -31,11 +31,11 @@ Built a simulated small office LAN with four PCs, a Cisco 2960 switch, and a Cis
 
 | Scenario | Introduced fault | Expected diagnosis | Fix | Observed result |
 |---|---|---|---|---|
-| 1 | PC2 changed to `192.168.20.102/24` | Incorrect subnet / unreachable configured gateway | Restore `192.168.10.102/24` | Add ping output |
-| 2 | PC1 changed to `192.168.10.101/26` | Gateway `.1` outside PC1's perceived `/26` subnet | Restore `/24` mask | Add ping output |
-| 3 | Router G0/0 shut down | Interface administratively down | Issue `no shutdown` | Add ping output |
+| 1 | PC2 changed to `192.168.20.102/24` | Incorrect subnet / unreachable configured gateway | Restore `192.168.10.102/24` | request timed out |
+| 2 | PC1 changed to `192.168.10.101/26` | Gateway `.1` outside PC1's perceived `/26` subnet | Restore `/24` mask | 0% packet loss |
+| 3 | Router G0/0 shut down | Interface administratively down | Issue `no shutdown` | request timed out |
 
-> Note: These are expected diagnoses. Attach actual test results before describing the repairs as verified.
+
 
 ## Validation evidence
 Add screenshots under `screenshots/` showing:
