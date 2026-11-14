@@ -51,5 +51,4 @@ Add screenshots under `screenshots/` showing:
 - A disabled router interface prevents access to the router while local switch traffic may still work.
 - Connectivity tests should be recorded to distinguish a suspected cause from a verified fix.
 
-## Next steps
-Implement VLANs, trunking, and inter-VLAN routing in a follow-up lab.
+
